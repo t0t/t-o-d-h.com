@@ -1,0 +1,10 @@
+mixin header-half(title,description,bg)
+	section.container-fluid(data-background-color=bg)
+		.row
+			.col-md-12
+				.section-half-height.d-flex.flex-column.flex-wrap.justify-content-center.align-content-center.align-items-center.text-center
+					//- h6.mb-4 BLOG
+					h1.mb-2= title
+					h2.p-2.mb-0
+						= description
+					//- p.mt-4 by Sergio Forés

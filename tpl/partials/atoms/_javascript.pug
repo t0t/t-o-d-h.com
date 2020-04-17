@@ -1,0 +1,44 @@
+#javascriptComponents
+	#modals.row
+		.col-md-6.text-center
+			p Modal
+			button.btn.btn-primary(data-toggle='modal' data-target='#myModal')
+				i.now-ui-icons.files_single-copy-04
+				|  Classic
+			button.btn.btn-primary(data-toggle='modal' data-target='#myModal1')
+				i.now-ui-icons.media-1_button-power
+				|  Launch Modal Mini
+			button.btn.btn-primary(data-toggle='modal' data-target='#noticeModal')
+				i.now-ui-icons.travel_info
+				|  Notice
+			button.btn.btn-primary(data-toggle='modal' data-target='#loginModal')
+				i.now-ui-icons.users_single-02
+				|  Login Modal
+		.col-md-6.text-center
+			p Popovers
+			button.btn.btn-default(type='button' data-container='body' data-original-title='Popover On Left' data-toggle='popover' data-placement='left' data-content='Here will be some very useful information about his popover.' data-color='primary')
+				| On left
+			button.btn.btn-default(type='button' data-container='body' data-original-title='Popover on Top' data-toggle='popover' data-placement='top' data-content='Here will be some very useful information about his popover.')
+				| On top
+			button.btn.btn-default(type='button' data-container='body' data-original-title='Popover on Right' data-toggle='popover' data-placement='right' data-content='Here will be some very useful information about his popover.<br> Here will be some very useful information about his popover.')
+				| On right
+			button.btn.btn-default(type='button' data-container='body' data-original-title='Popover on Bottom' data-toggle='popover' data-placement='bottom' data-content='Here will be some very useful information about his popover.')
+				| On bottom
+
+		.col-md-6.pt-4.text-center
+			p Datetimepicker
+			.row
+				.col-md-6
+					.datepicker-container
+						.form-group
+							input.form-control.datetimepicker(type='text' value='10/05/2016' data-color='orange')
+						.form-group
+							input.form-control.timepicker(type='text' value='10/05/2016')
+						.form-group
+							input.form-control.datepicker(type='text' value='10/05/2016')
+		.col-md-6.text-center
+			p Tooltips
+			button.btn.btn-default.btn-tooltip(type='button' data-toggle='tooltip' data-placement='left' title='Tooltip on left' data-container='body' data-animation='true' data-delay='100') On left
+			button.btn.btn-default.btn-tooltip(type='button' data-toggle='tooltip' data-placement='top' title='Tooltip on top' data-container='body' data-animation='true') On top
+			button.btn.btn-default.btn-tooltip(type='button' data-toggle='tooltip' data-placement='bottom' title='Tooltip on bottom' data-container='body' data-animation='true') On bottom
+			button.btn.btn-default.btn-tooltip(type='button' data-toggle='tooltip' data-placement='right' title='Tooltip on right' data-container='body' data-animation='true') On right

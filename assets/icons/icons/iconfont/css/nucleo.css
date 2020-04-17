@@ -1,0 +1,360 @@
+/* --------------------------------
+
+icons Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+
+-------------------------------- */
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot") format("embedded-opentype"), url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*------------------------
+	base class definition
+-------------------------*/
+.td-icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 "icons";
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*------------------------
+  change icon size
+-------------------------*/
+.td-icon.lg {
+  font-size: 1.33333333em;
+  vertical-align: -16%; }
+
+.td-icon.x2 {
+  font-size: 2em; }
+
+.td-icon.x3 {
+  font-size: 3em; }
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.td-icon.square,
+.td-icon.circle {
+  padding: 0.33333em;
+  vertical-align: -16%;
+  background-color: #eee; }
+
+.td-icon.circle {
+  border-radius: 50%; }
+
+/*------------------------
+  list icons
+-------------------------*/
+.td-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  .td-icon-ul > li {
+    position: relative; }
+  .td-icon-ul > li > .td-icon {
+    position: absolute;
+    left: -1.57143em;
+    top: 0.14286em;
+    text-align: center; }
+    .td-icon-ul > li > .td-icon.lg {
+      top: 0;
+      left: -1.35714em; }
+    .td-icon-ul > li > .td-icon.circle, .td-icon-ul > li > .td-icon.square {
+      top: -0.19048em;
+      left: -1.90476em; }
+
+/*------------------------
+  spinning icons
+-------------------------*/
+.td-icon.spin {
+  -webkit-animation: td-icon-spin 2s infinite linear;
+  -moz-animation: td-icon-spin 2s infinite linear;
+  animation: td-icon-spin 2s infinite linear; }
+
+@-webkit-keyframes td-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes td-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(360deg); } }
+
+@keyframes td-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.td-icon.rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.td-icon.rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.td-icon.rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.td-icon.flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.td-icon.flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/*------------------------
+	font icons
+-------------------------*/
+.td-icon.td-shape-arrow:before {
+  content: "\ea05"; }
+
+.td-icon.td-cloud-download:before {
+  content: "\ea28"; }
+
+.td-icon.td-circuit-round:before {
+  content: "\ea2a"; }
+
+.td-icon.td-currency-exchange:before {
+  content: "\ea2b"; }
+
+.td-icon.td-curve-directions:before {
+  content: "\ea2c"; }
+
+.td-icon.td-launch-11:before {
+  content: "\ea35"; }
+
+.td-icon.td-percentage-39:before {
+  content: "\ea3d"; }
+
+.td-icon.td-recycling:before {
+  content: "\ea3e"; }
+
+.td-icon.td-refresh-68:before {
+  content: "\ea3f"; }
+
+.td-icon.td-centralize:before {
+  content: "\ea4a"; }
+
+.td-icon.td-avocado:before {
+  content: "\ea4d"; }
+
+.td-icon.td-grid-system:before {
+  content: "\ea4e"; }
+
+.td-icon.td-m-sync:before {
+  content: "\ea4f"; }
+
+.td-icon.td-shape-triangle:before {
+  content: "\ea55"; }
+
+.td-icon.td-shape-oval:before {
+  content: "\ea56"; }
+
+.td-icon.td-shape-rectangle:before {
+  content: "\ea57"; }
+
+.td-icon.td-shape-polygon:before {
+  content: "\ea58"; }
+
+.td-icon.td-touch-id:before {
+  content: "\ea59"; }
+
+.td-icon.td-gift:before {
+  content: "\ea5c"; }
+
+.td-icon.td-barcode-qr-4:before {
+  content: "\ea60"; }
+
+.td-icon.td-shuffle-01-2:before {
+  content: "\ea7f"; }
+
+.td-icon.td-share-2-3:before {
+  content: "\ea81"; }
+
+.td-icon.td-reload-2:before {
+  content: "\ea82"; }
+
+.td-icon.td-refresh-69:before {
+  content: "\ea83"; }
+
+.td-icon.td-loop-30:before {
+  content: "\ea88"; }
+
+.td-icon.td-minimal-left:before {
+  content: "\ea89"; }
+
+.td-icon.td-minimal-down:before {
+  content: "\ea8a"; }
+
+.td-icon.td-minimal-right:before {
+  content: "\ea8b"; }
+
+.td-icon.td-minimal-up:before {
+  content: "\ea8c"; }
+
+.td-icon.td-move-05-2:before {
+  content: "\ea8d"; }
+
+.td-icon.td-dots-upload-2:before {
+  content: "\ea94"; }
+
+.td-icon.td-disperse-2-2:before {
+  content: "\ea95"; }
+
+.td-icon.td-curve-circuit-2:before {
+  content: "\ea96"; }
+
+.td-icon.td-zoom-88:before {
+  content: "\eab0"; }
+
+.td-icon.td-board:before {
+  content: "\eabe"; }
+
+.td-icon.td-sign-24h:before {
+  content: "\eabf"; }
+
+.td-icon.td-menu-to-close-2:before {
+  content: "\eac1"; }
+
+.td-icon.td-search-to-close:before {
+  content: "\eac2"; }
+
+.td-icon.td-show-to-hide:before {
+  content: "\eac3"; }
+
+.td-icon.td-i-sorting:before {
+  content: "\eac5"; }
+
+.td-icon.td-add-to-check:before {
+  content: "\eac6"; }
+
+.td-icon.td-dots-to-close-2:before {
+  content: "\eac7"; }
+
+.td-icon.td-dots-to-close:before {
+  content: "\eac8"; }
+
+.td-icon.td-rim:before {
+  content: "\ead2"; }
+
+.td-icon.td-sensor:before {
+  content: "\ead5"; }
+
+.td-icon.td-command:before {
+  content: "\eae4"; }
+
+.td-icon.td-window-dev:before {
+  content: "\eae5"; }
+
+.td-icon.td-check:before {
+  content: "\eae6"; }
+
+.td-icon.td-tool-blur:before {
+  content: "\eb06"; }
+
+.td-icon.td-split-vertical-2-2:before {
+  content: "\eb2f"; }
+
+.td-icon.td-loop:before {
+  content: "\eb48"; }
+
+.td-icon.td-comment-add:before {
+  content: "\eb5b"; }
+
+.td-icon.td-chat-round-content:before {
+  content: "\eb5c"; }
+
+.td-icon.td-funnel:before {
+  content: "\eb65"; }
+
+.td-icon.td-puzzled:before {
+  content: "\eb6b"; }
+
+.td-icon.td-tree:before {
+  content: "\eb71"; }
+
+.td-icon.td-cloud-refresh:before {
+  content: "\eb86"; }
+
+.td-icon.td-share-4:before {
+  content: "\eb88"; }
+
+.td-icon.td-goal:before {
+  content: "\eb97"; }
+
+.td-icon.td-fullscreen:before {
+  content: "\eb9a"; }
+
+.td-icon.td-enlarge-circle:before {
+  content: "\eb9b"; }
+
+.td-icon.td-barcode:before {
+  content: "\ebc3"; }
+
+.td-icon.td-simple-remove:before {
+  content: "\ebc5"; }
+
+.td-icon.td-world:before {
+  content: "\ebc6"; }
+
+.td-icon.td-air:before {
+  content: "\ebc7"; }
+
+.td-icon.td-water:before {
+  content: "\ebc8"; }
+
+.td-icon.td-energy:before {
+  content: "\ebc9"; }
+
+.td-icon.td-logotodh:before {
+  content: "\ebca"; }
+
+.td-icon.td-logotodh-2:before {
+  content: "\ebcb"; }
+
+/*# sourceMappingURL=nucleo.css.map */

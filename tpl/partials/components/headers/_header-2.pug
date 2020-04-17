@@ -1,0 +1,58 @@
+.header-2
+	//- nav.navbar.navbar-expand-lg.navbar-transparent.bg-primary.navbar-absolute
+		.container
+			.navbar-translate
+				button.navbar-toggler(type='button' data-toggle='collapse' data-target='#example-navbar-primary' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+					span.navbar-toggler-bar.bar1
+					span.navbar-toggler-bar.bar2
+					span.navbar-toggler-bar.bar3
+				a.navbar-brand(href='#') TODH
+			#example-navbar-primary.collapse.navbar-collapse
+				ul.navbar-nav.mx-auto
+					li.nav-item.active
+						a.nav-link(href='#')
+							| Home
+					li.nav-item
+						a.nav-link(href='#')
+							| About Us
+					li.nav-item
+						a.nav-link(href='#')
+							| Products
+					li.nav-item
+						a.nav-link(href='#')
+							| Contact Us
+				ul.nav.navbar-nav.navbar-right
+					li.nav-item
+						a.nav-link(href='https://twitter.com/t0tinspire')
+							i.fa.fa-twitter
+					li.nav-item
+						a.nav-link(href='https://www.facebook.com/sergio.fores')
+							i.fa.fa-facebook-square
+					li.nav-item
+						a.nav-link(href='https://www.instagram.com/t.o.d.h/')
+							i.fa.fa-instagram
+	.page-header.header-filter
+		.page-header-image(style="background-image: url('assets/img/bg17.jpg');")
+		.content-center
+			.container
+				.row
+					.col-md-8.ml-auto.mr-auto.text-center
+						h1.title In the beginning the unmanifested potential
+						h5.description
+							| Todo en la vida sigue el mismo proceso. Una persona, un equipo, un producto... todo es una conversación que puede fluir en coherencia con la vida..
+					.col-md-10.ml-auto.mr-auto
+						.card.card-raised.card-form-horizontal.card-plain(data-background-color='')
+							.card-body
+								form(method='' action='')
+									.row
+										.col-md-3
+											.form-group
+												input.form-control(type='text' value='' placeholder='Full Name')
+										.col-md-3
+											.form-group
+												input.form-control(type='email' value='' placeholder='Your Email')
+										.col-md-3
+											.form-group
+												input.form-control(type='password' value='' placeholder='Password')
+										.col-md-3
+											button.btn.btn-success.btn-round.btn-block(type='button') Join Us

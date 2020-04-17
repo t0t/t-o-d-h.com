@@ -1,0 +1,149 @@
+section
+	.container
+		#comments
+			.title
+				h3
+					small Comments
+			.row
+				.col-md-8.ml-auto.mr-auto
+					.media-area
+						h3.title.text-center
+							small 10 Comments
+						.media
+							a.pull-left(href='#')
+								.avatar
+									img.media-object.img-raised(src='assets/img/sergio.jpg' alt='...')
+							.media-body
+								h5.media-heading
+									| Tina Andrew
+									small.text-muted &middot; 7 minutes ago
+								p
+									| Siempre una separación posibilita el #encuentro!
+								p
+									| Falla rápido, falla barato y vuelve a por más.!
+								.media-footer
+									a.btn.btn-primary.btn-neutral.pull-right(href='#pablo' rel='tooltip' title='Reply to Comment')
+										i.now-ui-icons.ui-1_send
+										|  Reply
+									a.btn.btn-danger.btn-neutral.pull-right(href='#pablo')
+										i.now-ui-icons.ui-2_favourite-28
+										|  243
+								.media.media-post
+									a.pull-left.author(href='#pablo')
+										.avatar
+											img.media-object.img-raised(alt='64x64' src='assets/img/sergio.jpg')
+									.media-body
+										textarea.form-control(placeholder='Write a nice reply or go home...' rows='4')
+										.media-footer
+											a.btn.btn-primary.pull-right(href='#pablo')
+												i.now-ui-icons.ui-1_send
+												|  Reply
+						.media
+							a.pull-left(href='#pablo')
+								.avatar
+									img.media-object.img-raised(alt='Tim Picture' src='assets/img/avatar.jpg')
+							.media-body
+								h5.media-heading
+									| John Camber
+									small.text-muted &middot; Yesterday
+								p
+									| Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.
+								p  Don&apos;t forget, You&apos;re Awesome!
+								.media-footer
+									a.btn.btn-primary.btn-neutral.pull-right(href='#pablo' rel='tooltip' title='Reply to Comment')
+										i.now-ui-icons.ui-1_send
+										|  Reply
+									a.btn.btn-default.btn-neutral.pull-right(href='#pablo')
+										i.now-ui-icons.ui-2_favourite-28
+										|  25
+								.media
+									a.pull-left(href='#pablo')
+										.avatar
+											img.media-object.img-raised(alt='64x64' src='assets/img/sergio.jpg')
+									.media-body
+										h5.media-heading
+											| Tina Andrew
+											small.text-muted &middot; 2 Days Ago
+										p
+											| Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.
+										p  Don&apos;t forget, You&apos;re Awesome!
+										.media-footer
+											a.btn.btn-primary.btn-neutral.pull-right(href='#pablo' rel='tooltip' title='Reply to Comment')
+												i.now-ui-icons.ui-1_send
+												|  Reply
+											a.btn.btn-danger.btn-neutral.pull-right(href='#pablo')
+												i.now-ui-icons.ui-2_favourite-28
+												|  243
+						.media
+							a.pull-left(href='#pablo')
+								.avatar
+									img.media-object.img-raised(alt='64x64' src='assets/img/avatar.jpg')
+							.media-body
+								h5.media-heading
+									| Rosa Thompson
+									small.text-muted &middot; 2 Days Ago
+								p
+									| Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.
+								p  Don&apos;t forget, You&apos;re Awesome!
+								.media-footer
+									a.btn.btn-primary.btn-neutral.pull-right(href='#pablo' rel='tooltip' title='Reply to Comment')
+										i.now-ui-icons.ui-1_send
+										|  Reply
+									a.btn.btn-danger.btn-neutral.pull-right(href='#pablo')
+										i.now-ui-icons.ui-2_favourite-28
+										|  243
+						ul.pagination.pagination-primary.justify-content-center
+							li.page-item
+								a.page-link(href='#' aria-label='Previous')
+									span(aria-hidden='true')
+										i.fa.fa-angle-double-left(aria-hidden='true')
+							li.page-item
+								a.page-link(href='#') 1
+							li.page-item.active
+								a.page-link(href='#') 2
+							li.page-item
+								a.page-link(href='#') 3
+							li.page-item
+								a.page-link(href='#' aria-label='Next')
+									span(aria-hidden='true')
+										i.fa.fa-angle-double-right(aria-hidden='true')
+					h4.text-center
+						| Post your comment
+						br
+						small.text-muted - Logged In User -
+					.media.media-post
+						a.pull-left.author(href='#pablo')
+							.avatar
+								img.media-object.img-raised(alt='64x64' src='assets/img/avatar.jpg')
+						.media-body
+							textarea.form-control(placeholder='Write some nice stuff or nothing...' rows='6')
+							.media-footer
+								a.btn.btn-primary.btn-wd.pull-right(href='#pablo') Post Comment
+					// end media-post
+					h4.text-center
+						| Post your comment
+						br
+						small.text-muted - Not Logged In User -
+					.media.media-post
+						a.pull-left.author(href='#pablo')
+							.avatar
+								img.media-object.img-raised(alt='64x64' src='assets/img/placeholder.jpg')
+						.media-body
+							form.form
+								.row
+									.col-md-6
+										.form-group
+											input.form-control(type='text' placeholder='Your Name')
+									.col-md-6
+										.form-group
+											input.form-control(type='email' placeholder='Your email')
+								textarea.form-control(placeholder='Write some nice stuff or nothing...' rows='6')
+								.media-footer
+									h6.text-muted Sign in with
+									a.btn.btn-icon.btn-round.btn-twitter(href='')
+										i.fa.fa-twitter
+									a.btn.btn-icon.btn-round.btn-facebook(href='')
+										i.fa.fa-facebook-square
+									a.btn.btn-icon.btn-round.btn-google(href='')
+										i.fa.fa-google-plus-square
+									a.btn.btn-primary.pull-right(href='#pablo') Post Comment

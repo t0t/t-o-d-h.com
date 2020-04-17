@@ -1,0 +1,219 @@
+extends layouts/_default
+include mixins/carousel.pug
+include mixins/accordion.pug
+include mixins/header-half.pug
+include mixins/content.pug
+block title
+	title TODH - Los 12 arquetipos
+append content
+
+	+header-half( 
+		"Los doce arquetipos universales",
+		"y algunas de sus analogías",
+		"gold"
+	)
+
+	section.section-va.container
+		.row
+			.col-10.mx-auto
+				+blockquote( ' "De una manera u otra somos partes de una sola mente que todo lo abarca, un único gran hombre" ',
+					" Carl Gustav Jung" )
+				p.
+					Desde la antiguedad el ser humano ha identificado y cosificado una serie de energías, actitudes o impulsos inconscientes.
+					El simbolismo más arcaico revela ya ciertos patrones energéticos que se han ido repitiendo en los mitos, los dioses, la astrología, la sicología, Hollywood o el Social Media Branding...
+				p.
+					Jung se expresaba en términos de inconsciente colectivo y hablaba de los 12 arquetipos universales de la personalidad. Los 12 trabajos de Hércules, los 12 apóstoles, los 12 signos zodiacales encontrados ya en la bóveda del templo de Dendera en el año 50 A.C... 
+				p.
+					Y así, podríamos perdernos en muchos jardines y maravillarnos ante las constantes correlaciones, pero siento una "urgencia" mayor por explorar la base de esas doce energías y su naturaleza primigenia. 
+					Sé que si logramos comprenderlas tendremos la llave maestra que nos permita desentrañar la complejidad y la incertidumbre en cualquier proceso creativo.
+
+				+heading2( "La estructura analógica fractal" )
+				p.
+					La Creación es un sistema en el que todas sus partes se mueven describiendo un itinerario. El "viajero" va actualizando el propio potencial a cada paso que da. Así se produce el avance, el desarrollo, el crecimiento, la evolución.
+				p
+					| En esencia estos pasos o movimientos posibles son 12 y cada una de ellas se manifiesta en 
+					abbr(title="Decir, sentir, pensar, hacer") 4 dimensiones:
+
+				.row.pt-4
+					.col-md-12.mx-auto
+						.row
+							.col-md-6
+								h1.mb-2 1
+								p.
+									Ser. Emprender, chispa, iniciativa, riesgo, impulso, fuerza.
+									El inicio de las cosas. 
+									La aventura, crear nuevas brechas. 
+									Experimentación de sí mismo en acción. 
+									Estímulos, entusiasmo y alegría.
+									Va en busca del exterior y crea un efecto en él.
+									Su elemento es el fuego y su función es la intuición.
+								//- :markdown-it()
+								//- 
+								//- 	```javascript
+								//- 	function Iniciar();
+								//- 	```
+							.col-md-6
+								h1.mb-2 2
+								p.
+									Tener. Giramos en torno a la necesidad. 
+									Cubrir lo que a uno le falta, de tener lo que desea.
+									Recursos, dinero, lo que ocurre ¿aporta algo?.
+									La posesión del deseo.
+									Tendencia a acumular, asegurar y mantener los estados conseguidos.
+									Permitimos que el exterior entre en nosotros.
+									Su esencia es recibir lo que el entorno le da. 
+									Por eso disfruta al estar en contacto con la Naturaleza: ama la vida.
+									Su función es “hacer cuerpo” o materializar las cosas. 
+									Su elemento es la tierra y su función es la percepción.
+									Posesión, persistencia, perseverancia.
+
+							.col-md-6
+								h1.mb-2 3
+								p.
+									El pensar. Brainstorming, contactos, red.
+									Cualidad de crear nuevas posibilidades en el presente.
+									Su juego es el de combinar, vincular, intercambiar continuamente.
+									Versatilidad, movilidad, conectar y desconectar.
+									Enlace dos lugares diferentes o distantes.
+									Crear opciones sin apegarse a ellas.
+									Es el comerciante, el periodista, el comunicador nato.
+									Su elemento es el aire y su función es de pensamiento.
+							.col-md-6
+								h1.mb-2 4
+								p.
+									Gestión emocional, equipo.
+									Sentir. Sensibilidad. Separación entre “adentro” de un “afuera”.
+									Para que algo se desarrolle con plenitud y garantías de éxito, es necesario aislarlo del exterior protegiéndolo con cuidado y mimo.
+									La suma de las experiencias que se depositan en el inconsciente humano colectivo.
+									Su elemento es el agua y su función es el sentimiento.
+							.col-md-6
+								h1.mb-2 5
+								p.
+									Marketing, target, como lo presento...
+									Querer. El descubrimiento del Yo.
+									Querer mostrarse y transmitir nuestra fuerza en el exterior.
+									Irradiar. Energía. Brillo. Creatividad. Talento.
+									Su elemento es el fuego y su función es la intuición.
+							.col-md-6
+								h1.mb-2 6
+								p.
+									Analizar. Optimizar procesos, necesidad de ordenar. Trabajo. 
+									Percepción de que uno mismo y todo lo demás forma parte de un sistema mayor.
+									Apertura a algo que te incluye.
+									Todo tiene su sitio y su lugar para que todo funcione mejor.
+									Uso de la mente lógica para clasificar y colocar.
+									Lógica, orden y sentido práctico.
+							.col-md-6
+								h1.mb-2 7
+								p.
+									Cooperación, asociaciones que fortalecen el proyecto.
+									Equilibrar. Contactar con los demás.
+									Armonía, todo en su justa medida, equilibrio, igualdad, mesura, tacto, justicia, inteligencia.
+									Su elemento es el aire y su función es de pensamiento.
+							.col-md-6
+								h1.mb-2 8
+								p.
+									Desear. Gestión de emociones relacionadas con un proyecto.
+									Ir a la raíz, a lo esencial.
+									Intensidad, apasionamiento.
+									Su elemento es el agua y su función es el sentimiento.
+
+							.col-md-6
+								h1.mb-2 9
+								p.
+									Abrir sucursales, abrir fronteras...
+									Comprender. Expansión, espíritu explorador.
+									Es la energía que comprende y sintetiza.
+									Apunta y marca una dirección y sentido vital.
+									Visión global que hace ver el porqué de los hechos, teniendo como consecuencia una confianza innata en la vida.
+
+							.col-md-6
+								h1.mb-2 10 
+								p.
+									Resultado, empresa madura, visión estratégica.
+									Utilizar. Su elemento es la tierra y su función es la percepción.
+							.col-md-6
+								h1.mb-2 11 
+								p.
+									Innovación, actualización contínua, avances, nuevos paradigmas.
+									Saber. Su elemento es el aire y su función es de pensamiento.
+
+							.col-md-6
+								h1.mb-2 12 
+								p.
+									El proyecto se disuelve en lo colectivo, solidaridad...
+									Creer. Su elemento es el agua y su función es el sentimiento.
+
+	section.section-va.container
+		.row
+			.col-10.mx-auto
+
+				+heading2( "En resumen" )
+				p.
+					Existen ideas y patrones de conducta que son universales y están presentes en toda la humanidad, más allá del sexo, cultura, edad o religión, ya que pertenecen a la psique humana.
+					Conocerlas y experimentarlas es sin duda el mejor viaje posible.
+
+	//- 			.row
+	//- 				.col-md-12
+	//- 					+list-ol(
+	//- 					"Ser",
+	//- 					"Tener",
+	//- 					"Pensar",
+	//- 					"Sentir",
+	//- 					"Querer",
+	//- 					"Analizar",
+	//- 					"Equilibrar",
+	//- 					"Desear",
+	//- 					"Comprender",
+	//- 					"Utilizar",
+	//- 					"Saber",
+	//- 					"Creer"
+	//- 					)
+	//- 				.col-md-12
+	//- 					+list-inline(
+	//- 					"Impulso, emprender",
+	//- 					"Recursos, dinero, aporta algo?",
+	//- 					"brainstorming, contactos, red",
+	//- 					"gestión emocional, equipo,",
+	//- 					"marketing, target, como lo presento",
+	//- 					"currar, optimizar procesos",
+	//- 					"cooperación, asociaciones que fortalecen el proyecto",
+	//- 					"gestión de emociones relacionadas con un proyecto",
+	//- 					"abrir sucursales, abrir fronteras",
+	//- 					"resultado, empresa madura, visión estratégica",
+	//- 					"innovación, actualización contínua, avances, nuevos paradigmas",
+	//- 					"el proyecto de disuelve en lo colectivo, solidaridad..."
+	//- 					)
+	//- 
+	//- section.section-va.container
+	//- 	.row
+	//- 		+block-text('Hello world')
+	//- 			p This is my
+	//- 			p Amazing article
+	//- 
+	//- 		+block-text('Another article')
+	//- 			p I just used a mixin
+	//- 			p instead of retyping code
+	//- 
+	//- 		+blockquote(
+	//- 			" jgvj ygv yjgv jygv jvygv jyc jf cj",
+	//- 			"el autor"
+	//- 		)
+	//- 
+	//- section.section-va.container
+	//- 	.row
+	//- 		.col-md-8.ml-auto.mr-auto.text-center
+	//- 
+	//- 			+carousel( "ExampleIndicators", [{
+	//- 				image:"assets/img/bg4.jpg", 
+	//- 				h1:"Titulo del slide", 
+	//- 				p:"asD Fawfkewklfjvanwlkvj", 
+	//- 				button:{ caption:"xy", url:"#"}
+	//- 
+	//- 				},{
+	//- 
+	//- 				image:"assets/img/bg2.jpg", 
+	//- 				h1:"El slide 2", 
+	//- 				p:"ww", 
+	//- 				button:{ caption:"s", url:"#"}	 
+	//- 			}])

@@ -1,0 +1,83 @@
+section
+	.container
+		.row
+			.col-md-6
+				h4 Progress Bars
+				.progress-container
+					span.progress-badge Default
+					.progress
+						.progress-bar(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 25%;')
+							span.progress-value 25%
+				.progress-container.progress-primary
+					span.progress-badge Primary
+					.progress
+						.progress-bar.progress-bar-warning(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')
+							span.progress-value 60%
+				.progress-container.progress-danger
+					span.progress-badge Danger
+					.progress
+						.progress-bar.progress-bar-warning(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')
+							span.progress-value 60%
+				.progress-container.progress-warning
+					span.progress-badge Warning
+					.progress
+						.progress-bar.progress-bar-warning(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')
+							span.progress-value 60%
+				.progress-container.progress-success
+					span.progress-badge Success
+					.progress
+						.progress-bar.progress-bar-warning(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')
+							span.progress-value 60%
+				.progress-container.progress-info
+					span.progress-badge Info
+					.progress
+						.progress-bar.progress-bar-warning(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;')
+							span.progress-value 60%
+			.col-md-6
+				h4 Pagination
+				ul.pagination.pagination-primary
+					li.page-item.active
+						a.page-link(href='#') 1
+					li.page-item
+						a.page-link(href='#link') 2
+					li.page-item
+						a.page-link(href='#link') 3
+					li.page-item
+						a.page-link(href='#link') 4
+					li.page-item
+						a.page-link(href='#link') 5
+				ul.pagination
+					li.page-item
+						a.page-link(href='#link' aria-label='Previous')
+							span(aria-hidden='true')
+								i.fa.fa-angle-double-left(aria-hidden='true')
+					li.page-item
+						a.page-link(href='#link') 1
+					li.page-item.active
+						a.page-link(href='#link') 2
+					li.page-item
+						a.page-link(href='#link') 3
+					li.page-item
+						a.page-link(href='#link' aria-label='Next')
+							span(aria-hidden='true')
+								i.fa.fa-angle-double-right(aria-hidden='true')
+				.pagination-container.justify-content-center
+					ul.pagination.pagination-primary
+						li.page-item.arrow-margin-left
+							a.page-link(href='#' aria-label='Previous')
+								span(aria-hidden='true')
+									i.fa.fa-angle-double-left(aria-hidden='true')
+						li.page-item
+							a.page-link(href='#') 1
+						li.page-item
+							a.page-link(href='#') 2
+						li.page-item.active
+							a.page-link(href='#') 3
+						li.page-item
+							a.page-link(href='#') 4
+						li.page-item
+							a.page-link(href='#') 5
+						li.page-item.arrow-margin-right
+							a.page-link(href='#' aria-label='Next')
+								span(aria-hidden='true')
+									i.fa.fa-angle-double-right(aria-hidden='true')

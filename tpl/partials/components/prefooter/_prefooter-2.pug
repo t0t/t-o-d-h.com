@@ -1,0 +1,20 @@
+section.section-va.container-fluid(data-background-color='gold')
+	.row.d-flex.justify-content-center.align-content-center
+		.col-md-5
+			h4.title.
+				Get Tips &amp; Tricks every Week!
+			p.description.text-center.mb-0.
+				Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+		.col-md-5
+			.card.card-plain.card-form-horizontal.mb-0
+				.card-body.mt-4.mx-auto
+					form(action='https://formspree.io/sergiofores@gmail.com' method='POST')
+						.row
+							.col-sm-6
+								.input-group
+									.input-group-prepend
+										span.input-group-text
+											i.td-icon.td-loop
+									input.form-control(type='text' placeholder='Your Email...' name='_replyto')
+							.col-sm-3
+								input.form-control.btn.btn-primary.btn-round(type='submit' value='Send')

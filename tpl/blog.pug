@@ -1,0 +1,15 @@
+extends layouts/_default
+include partials/components/headers/_header-5
+
+block title
+	title TODH - Blog Index
+
+append content
+	//- Page Header
+	+header-5(
+	"bg9.jpg",
+	"Blog",
+	"Artículos para percibir en coherencia el proceso de la Creación"
+	)
+	//- Index Blog
+	include partials/components/blog/_blog-5

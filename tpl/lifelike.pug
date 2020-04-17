@@ -1,0 +1,57 @@
+extends layouts/_default
+block title
+	title Lifelike
+block prepend styles
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css", type='text/css')
+
+append content
+	//- HEADER
+	header
+		//- Page Header
+		include partials/components/headers/_header-5
+		+header-5(
+		"bg3.jpg",
+		"Lifelike! Living Design System & Holistic Workflow",
+		"Let your website reach its potential in the now "
+		)
+
+	//- CONTENT
+	//- Atoms
+	include partials/atoms/_atoms
+
+	//- Molecules
+	include partials/molecules/_molecules
+
+	//- Components
+	include partials/components/_navbars
+	include partials/components/_cards
+	include partials/components/_carousels
+	include partials/components/_features
+	//- include partials/components/_projects
+	include partials/components/_blogs
+	include partials/components/_collapse
+	//- include partials/_comments
+	//- include partials/components/_teams
+	//- include partials/components/_pricing
+	include partials/components/_testimonials
+	//- include partials/components/_contactus
+	include partials/components/_prefooter
+
+	//- FOOTER
+	//- include partials/components/_footers
+
+	include partials/components/_modals
+
+block scripts
+	script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+	script(src='./assets/js/core/popper.min.js' type='text/javascript')
+	script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+	script(src='./assets/js/plugins/moment.min.js')
+	script(src='./assets/js/plugins/bootstrap-switch.js')
+	script(src='./assets/js/plugins/bootstrap-tagsinput.js')
+	script(src='./assets/js/plugins/bootstrap-selectpicker.js' type='text/javascript')
+	script(src='./assets/js/plugins/jasny-bootstrap.min.js')
+	//-script(type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD1qd6R-Im46RG0YMTJUU6wgVztiBi3oLU')
+	//-script(src='./assets/js/plugins/nouislider.min.js' type='text/javascript')
+	script(src='./assets/js/plugins/bootstrap-datetimepicker.min.js' type='text/javascript')
+	script(src='./assets/js/now-ui-kit.js?v=1.2.0' type='text/javascript')

@@ -1,0 +1,9 @@
+mixin header-half-img(bg,title,subtitle)
+	.page-header.header-filter
+		.page-header-image(style="background-image: url('assets/img/"+bg+"');")
+			.row
+				.col-md-12
+					.d-flex.flex-column.flex-wrap.justify-content-center.align-content-center.align-items-center.text-center
+						h1.mb-2= title
+						h2.p-2.mb-0
+							= subtitle

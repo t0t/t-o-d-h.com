@@ -1,0 +1,148 @@
+section.section-va
+	.container
+		h3.title Forms
+
+		#inputs
+		p Form Controls
+		.row
+			.col-sm-6.col-lg-3
+				.form-group
+					input.form-control(type='text' value='' placeholder='Regular')
+			.col-sm-6.col-lg-3
+				.form-group.has-success
+					input.form-control.form-control-success(type='text' value='Success')
+			.col-sm-6.col-lg-3
+				.form-group.has-danger
+					input.form-control.form-control-danger(type='email' value='Error Input')
+			.col-sm-6.col-lg-3
+				.input-group
+					.input-group-prepend
+						span.input-group-text
+							i.fa.fa-user-circle
+					input.form-control(type='text' placeholder='Left Font Awesome Icon')
+			.col-sm-6.col-lg-3
+				.input-group
+					input.form-control(type='text' placeholder='Right Nucleo Icon')
+					.input-group-append
+						span.input-group-text
+							i.td-icons.td-target-2
+
+	section.section-va.container
+		h3.title Selects
+		.select
+		.row
+			.col-md-6
+				.row
+					.col-lg-6.col-md-8.col-sm-5
+						select.selectpicker(data-size='7' data-style='btn btn-primary btn-round' title='Single Select')
+							option(disabled='' selected='') Single Option
+							option(value='2') Foobar
+							option(value='3') Is great
+					.col-lg-6.col-md-8.col-sm-5
+						select.selectpicker(data-style='btn btn-info btn-round' multiple='' title='Choose City' data-size='7')
+							option(disabled='') Multiple Options
+							option(value='2') Paris 
+							option(value='3') Bucharest
+							option(value='4') Rome
+							option(value='5') New York
+							option(value='6') Miami 
+							option(value='7') Piatra Neamt
+							option(value='8') Paris 
+							option(value='9') Bucharest
+							option(value='10') Rome
+							option(value='11') New York
+							option(value='12') Miami 
+							option(value='13') Piatra Neamt
+							option(value='14') Paris 
+							option(value='15') Bucharest
+							option(value='16') Rome
+							option(value='17') New York
+							option(value='18') Miami 
+							option(value='19') Piatra Neamt
+			.col-md-4
+				.row
+					.col-lg-5.col-md-8
+						.dropdown
+							button#navbarDropdownMenuLink.btn.btn-primary.btn-round.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+								| Dropdown
+							.dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+								a.dropdown-item(href='#') Action
+								a.dropdown-item(href='#') Another action
+								a.dropdown-item(href='#') Something else here
+					.col-lg-5.col-md-8
+						.dropup
+							button#navbarDropdownMenuLink.btn.btn-primary.btn-round.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+								| Dropup
+							.dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+								a.dropdown-item(href='#') Action
+								a.dropdown-item(href='#') Another action
+								a.dropdown-item(href='#') Something else here
+								
+	section.section-va.container
+		#textareaTags.row
+			.col-md-6
+				.title
+					h4 Textarea
+				textarea.form-control(name='name' rows='4' cols='80' placeholder='You can write your text here...')
+			.col-md-6
+				.title
+					h4 Tags
+				input.tagsinput(type='text' value='Amsterdam,Washington,Sydney,Beijing' data-role='tagsinput' data-color='danger')
+				//- You can change data-color="rose" with one of our colors primary | warning | info | danger | success
+
+	section.section-va.container
+		#checkRadios.row
+			.col-sm-6.col-lg-3
+				p.category Checkboxes
+				.form-check
+					label.form-check-label
+						input.form-check-input(type='checkbox')
+						span.form-check-sign
+						| Unchecked
+				.form-check
+					label.form-check-label
+						input.form-check-input(type='checkbox' checked='')
+						span.form-check-sign
+						| Checked
+				.form-check.disabled
+					label.form-check-label
+						input.form-check-input(type='checkbox' disabled='')
+						span.form-check-sign
+						| Disabled Unchecked
+				.form-check.disabled
+					label.form-check-label
+						input.form-check-input(type='checkbox' checked='' disabled='')
+						span.form-check-sign
+						| Disabled Checked
+			.col-sm-6.col-lg-3
+				p.category Radios
+				.form-check.form-check-radio
+					label.form-check-label
+						input#exampleRadios1.form-check-input(type='radio' name='exampleRadios' value='option1')
+						span.form-check-sign
+						| Radio is off
+				.form-check.form-check-radio
+					label.form-check-label
+						input#exampleRadios1.form-check-input(type='radio' name='exampleRadios' value='option2' checked='')
+						span.form-check-sign
+						| Radio is on
+				.form-check.form-check-radio.disabled
+					label.form-check-label
+						input#exampleRadios2.form-check-input(type='radio' name='exampleRadios1' value='option3' disabled='')
+						span.form-check-sign
+						| Disabled radio is off
+				.form-check.form-check-radio.disabled
+					label.form-check-label
+						input#exampleRadios2.form-check-input(type='radio' name='exampleRadios1' value='option4' disabled='' checked='')
+						span.form-check-sign
+						| Disabled radio is on
+			.col-sm-6.col-lg-3
+				p.category Toggle Buttons
+				input.bootstrap-switch(type='checkbox' name='checkbox' checked='')
+				br
+				input.bootstrap-switch(type='checkbox' name='checkbox' data-on-label='ON' data-off-label='OFF')
+			.col-sm-6.col-lg-3
+				p.category Sliders
+				#sliderRegular.slider
+				br
+				#sliderDouble.slider.slider-primary

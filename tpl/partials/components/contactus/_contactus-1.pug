@@ -1,0 +1,71 @@
+.contactus-1.section-image(style="background-image: url('assets/img/bg1.jpg')")
+	.container
+		.row
+			.col-md-5.text-white
+				h2.title
+					| Get in Touch
+				h4.description
+					| Un mirar que descubre continuamente nuevas #conexiones entre los elementos del espacio que explora.
+				.info.info-horizontal
+					.icon.icon-primary
+						i.td-icon.td-sensor
+					.description
+						h4.info-title Find us at the office
+						p.description.text-white
+							| Bld Mihail Kogalniceanu, nr. 8,
+							br
+							|  7652 Bucharest,
+							br
+							|  Romania
+				.info.info-horizontal
+					.icon.icon-primary
+						i.td-icon.td-sensor
+					.description
+						h4.info-title Give us a ring
+						p.description.text-white
+							| Michael Jordan
+							br
+							|  +40 762 321 762
+							br
+							|  Mon - Fri, 8:00-22:00
+			.col-md-7.ml-auto.mr-auto
+				.card.card-contact.card-raised
+					form#contact-form(role='form' method='post')
+						.card-header.text-center
+							h4.card-title Contact Us
+						.card-body
+							.row
+								.col-md-6.pr-2
+									label First name
+									.input-group
+										.input-group-prepend
+											span.input-group-text
+												i.td-icon.td-sensor
+										input.form-control(type='text' placeholder='First Name...' aria-label='First Name...')
+								.col-md-6.pl-2
+									.form-group
+										label Last name
+										.input-group
+											.input-group-prepend
+												span.input-group-text
+													i.td-icon.td-sensor
+											input.form-control(type='text' placeholder='Last Name...' aria-label='Last Name...')
+							.form-group
+								label Email address
+								.input-group
+									.input-group-prepend
+										span.input-group-text
+											i.td-icon.td-sensor
+									input.form-control(type='text' placeholder='Email Here...')
+							.form-group
+								label Your message
+								textarea#message.form-control(name='message' rows='6')
+							.row
+								.col-md-6
+									.form-check
+										label.form-check-label
+											input.form-check-input(type='checkbox')
+											span.form-check-sign
+											|                                                         I&apos;m not a robot
+								.col-md-6
+									button.btn.btn-primary.btn-round.pull-right(type='submit') Send Message

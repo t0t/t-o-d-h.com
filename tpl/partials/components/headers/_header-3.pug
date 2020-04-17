@@ -1,0 +1,85 @@
+.header-3
+	//- nav.navbar.navbar-expand-lg.navbar-transparent.bg-primary.navbar-absolute
+		.container
+			.navbar-translate
+				button.navbar-toggler(type='button' data-toggle='collapse' data-target='#example-navbar-primary' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+					span.navbar-toggler-bar.bar1
+					span.navbar-toggler-bar.bar2
+					span.navbar-toggler-bar.bar3
+				a.navbar-brand(href='#') TODH
+			#example-navbar-primary.collapse.navbar-collapse
+				ul.navbar-nav.ml-auto
+					li.nav-item.active
+						a.nav-link(href='#')
+							| Home
+					li.nav-item
+						a.nav-link(href='#')
+							| About Us
+					li.nav-item
+						a.nav-link(href='#')
+							| Contact Us
+	#carouselExampleIndicators.carousel.slide
+		ol.carousel-indicators
+			li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+			li(data-target='#carouselExampleIndicators' data-slide-to='1')
+			li(data-target='#carouselExampleIndicators' data-slide-to='2')
+		.carousel-inner(role='listbox')
+			.carousel-item.active
+				.page-header.header-filter
+					.page-header-image(style="background-image: url('assets/img/bg5.jpg');")
+					.content-center
+						.container.text-left
+							.content-center
+								.row
+									.col-md-7
+										.iframe-container
+											iframe(height='250' src='https://www.youtube.com/embed/rmfmdKOLzVI?rel=0&controls=0&showinfo=0' frameborder='0' allowfullscreen='')
+									.col-md-5.ml-auto.mr-auto.text-right
+										h2.title Percibir conexiones y permitir ser transformado por ellas.
+										h4.description
+											| Todo en la vida sigue el mismo proceso. Una persona, un equipo, un producto... todo es una conversación que puede fluir en coherencia con la vida.
+			.carousel-item
+				.page-header.header-filter
+					.page-header-image(style="background-image: url('assets/img/bg15.jpg');")
+					.content-center
+						.container
+							.content-center
+								.row
+									.col-md-8.ml-auto.mr-auto.text-center
+										h1.title Alcanzar la realidad
+										h4.description
+											| Nos habitan a todos y siempre #12funciones psicológicas que dialogan entre sí, tanto a nivel interno como externo.
+										br
+										h5 Connect with us on:
+										.buttons
+											a.btn.btn-icon.btn-neutral.btn-danger.btn-round.mt-2(href='#')
+												i.fa.fa-twitter
+											a.btn.btn-icon.btn-neutral.btn-danger.btn-round.mt-2(href='#')
+												i.fa.fa-facebook-square
+											a.btn.btn-icon.btn-neutral.btn-danger.btn-round.mt-2(href='#')
+												i.fa.fa-google-plus
+											a.btn.btn-icon.btn-neutral.btn-danger.btn-round.mt-2(href='#')
+												i.fa.fa-instagram
+			.carousel-item
+				.page-header.header-filter
+					.page-header-image(style="background-image: url('assets/img/bg17.jpg');")
+					.content-center
+						.container
+							.content-center
+								.row
+									.col-md-6.text-left
+										h1.title No reinventes la rueda
+										h4.description
+											| El #zodiaco es una matriz primigenia de #arquetipos. Géminis es mucho más antiguo que Caín y Abel. Leo es un arquetipo mucho más abstracto y anterior al arquetipo del Rey.
+										br
+										.buttons
+											a.btn.btn-neutral.btn-primary.btn-lg.mr-1(href='#')
+												i.now-ui-icons.files_single-copy-04
+												|  Read More..
+											a.btn.btn-primary.btn-lg(href='#')
+												i.now-ui-icons.arrows-1_share-66
+												|  Subscribe
+		a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
+			i.now-ui-icons.arrows-1_minimal-left
+		a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
+			i.now-ui-icons.arrows-1_minimal-right

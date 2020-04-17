@@ -1,0 +1,208 @@
+extends layouts/_default
+block title
+	title TODH
+
+append content
+	.site__header
+		.brand
+			a.logo(href="/")
+				svg(width='74', height='40', viewbox='0 0 74 40', xmlns='http://www.w3.org/2000/svg')
+					title Logo
+					g(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+						g(transform='translate(-10 -5)', id='Brand/Logo', stroke='#111111')
+							path(d='M47 25c0-10.493-8.059-19-18-19s-18 8.507-18 19h36z', stroke-width='1', stroke-linecap='square')
+							path(d='M83 25c0 10.493-8.059 19-18 19s-18-8.507-18-19h36z', stroke-width='1', fill='#111111', fill-rule='evenodd')
+							path(d='M47 25.5h36', stroke-width='3', stroke-linejoin='bevel')
+		nav.site__menu
+			ul
+				li
+					a.nav-link(href="#fondo") Teoría
+				li
+					a.nav-link(href="#forma") Práctica
+				li
+					a.nav-link(href="#info") ¿?
+
+	#home.site__cover
+		h1 T-O-D-H
+		h2 De la idea a lo tangible
+		.img.img--fixed-2.img--small.anim2.filter-2(style="background-image:url('assets/img/bg13.jpg');")
+
+	section#fondo.article__content
+		h1 La matriz elemental
+		dl
+			dt Observar. El agua
+			dd.
+				Rendirse a la evidencia y permitir que cualquier situación te hable. 
+				Darse cuenta de la rotunda, vasta y compleja inteligencia en la que están insertados todos los objetos, sujetos y procesos. 
+				Percibir el contexto profundo que lo amalgama todo. El agua es el sentir, la sensibilidad a la luz, escuchar, percibir. 
+				En esta primera fase "algo" nos llega, nos inspira, nos mueve internamente. 
+				Tiene que ver con ese pulso vibratorio interno que se activa tras un estímulo proviniente del exterior. 
+				Es empaparse, impregnarse, recibir la información. Son las infinitas posibilidades. Es apertura. Es disolución. 
+				Es un estado empático, permeable, vulnerable. Es la primavera. Es Don Quijote. La contemplación.
+			small Arquetipos asociados: 4, 8, 12
+			dt Hacer. La tierra
+			dd.
+				La cristalización en el mundo material. El hecho en sí. El ahora. Lo que realmente está ocurriendo.
+				Es la mano que usa, la acción concreta, el verano en el cual las frutas maduran. Es manifestar, lo tanjible. Es todo lo que mitológicamente y astrológicamente representa Venus, y también Saturno. La experiencia, el acontecimiento, la forma, el tocar. Tracción, prueba, vivencia, registro, consumo de energía, es el nacer, la aplicación, validar, aparecer, lo sólido, el crecimiento, objeto, ocurrir, transformación, verdad, vivencia, acontecer... 
+			small Arquetipos asociados: 2, 6, 10
+			dt Discernir. El fuego
+			dd.
+				Es la rotunda intuición. La luz, el brillo. La chispa que enciende. El fuego y toda su simbología asociada apuntan siempre a lo mismo: la dirección clara, el foco puesto en algo que elimina todo lo que es supérfluo. 
+				Ir al norte es también “no-ir” a los demás puntos cardinales. 
+				Es Marte, el guerrero. El Sol central. Zeus en la mitología griega.
+				Es la mente. Es la comprensión. La voluntad.
+			small Arquetipos asociados: 1, 5, 9
+			dt Trascender. El aire
+			dd.
+				Exhalar, pronunciar, trascender, soltar, alcanzar, voz, aire, invierno, transmisión, encuentro, desplegar, entregar, comunicar, el otro, lo vincular, la aportación, sembrar, devolver, continuidad. Es cómo se articula la mente. La curiosidad. La sorpresa. Lo inesperado. El chiste. La sinapsis. La innovación. El regalo. Lo disruptivo.
+			small Arquetipos asociados: 3, 7, 11
+	
+	.site__section
+		.figure
+			.figure__image.img(style="background-image:url('assets/img/bg9.jpg');")
+			.figure__caption 
+				h2 Todo proceso fluctúa dentro de un mismo patrón cuaternario.
+				p.
+					A un nivel profundo los cuatro elementos; agua, tierra, fuego, aire, determinan las 4 fases de desarrollo que tiene cualquier ciclo. A medida que comprendemos la esencia de cada uno de ellos se nos ocurre lo que está ocurriendo, nos alineamos con la Creación. La estructura de la realidad funciona a través de analogías, fractales y sistemas.
+	
+	.site__section
+		.figure
+			.figure__caption
+				h2 Vivimos dentro de un paradigma funcional sistémico.
+				p.
+					Ciclos TODH que iteran actualizando un potencial. Fluctuaciones de siempre los mismos arquetipos primigenios adoptando distintas formas. En la medida en que comprendemos esto, el viaje del ideal a la plasmación, crecemos como seres humanos, como sociedad, como creadores de productos. Amplía tu percepción creativa. 
+					La trama: El viaje del héroe, del ser ideal y máximo potencial a la cristalización concreta.
+			.figure__image.img(style="background-image:url('assets/img/bg14.jpg');")
+
+	section.article__content
+		h1 Los 12 arquetipos universales
+		dl
+			dt 1 Iniciar
+			dd Emprender. Chispa. Iniciativa. Riesgo. Impulso. Fuerza. Intuición. Fuego. Marte. El guerrero. Acción.
+			dt 2 Tener
+			dd Recursos. Dinero. Acumular. Asegurar. Mantener. Perseverancia. Tierra. Sensualidad. Venus. Resistencia.
+			dt 3 Conectar
+			dd Red. Pensar. Posibilidades. Combinar. Vincular. Intercambiar. Versatilidad. Movilidad. Conectar/desconectar. Opciones. Aire. Mercurio. Comunicar.
+			dt 4 Sentir
+			dd Sentir. Sostén emocional. Equipo. Sensibilidad. Adentro/Afuera. Agua. Luna. Nutrir.
+			dt 5 Querer
+			dd El descubrimiento del Yo. Querer mostrarse y transmitir nuestra fuerza en el exterior. Irradiar. Energía. Brillo. Creatividad. Talento. Intuición. Fuego. Sol. Corazón. Motivación. Lucimiento.
+			dt 6 Analizar
+			dd Optimizar procesos. Ordenar. Trabajo. Percepción dentro de un sistema mayor. Apertura a algo que te incluye. Todo tiene su sitio y su lugar para que todo funcione mejor. Uso de la mente lógica para clasificar y colocar. Orden y sentido práctico. Tierra.
+			dt 7 Equilibrar
+			dd Cooperación, asociaciones. Contactar con el otro. Armonía, todo en su justa medida, equilibrio, igualdad, mesura, tacto, justicia, inteligencia. Aire.
+			dt 8 Desear
+			dd Gestión de emociones. Lo profundo. Ir a la raíz, a lo esencial. Intensidad. Apasionamiento. La sombra. Plutón. Agua.
+			dt 9 Comprender
+			dd Abrir fronteras. Expansión. Espíritu explorador. Sintetizar. Apuntar. Marcar dirección y sentido vital. Visión global que hace ver el porqué de los hechos. Confianza. Fuego. Filosofía. Júpiter. El sentido. Búsqueda.
+			dt 10 Utilizar
+			dd Resultado. Maduración. Visión estratégica. Tierra. Saturno. Limitación. Disciplina. Normas. Rigidez. Exigencia.
+			dt 11 Saber
+			dd Innovación. Actualización contínua. Avances. Nuevos paradigmas. Aire. Urano. El loco. Disrupción. Humanismo. Originalidad. Transgresión.
+			dt 12 Creer
+			dd Unidad trascendental. Visión holística. Totalidad. Trascendencia. Se disuelve en lo colectivo. Solidaridad. Comunión. Agua. Neptuno. Fusión.
+
+	.site__section
+		.figure.figure--color-3
+			.figure__image.img.img--half(style="background-image:url('assets/img/bg23.jpg');")
+			.figure__caption 
+				h2 “Acontece la paradoja máxima de que lo que está en todas partes, lo omnipresente, es lo que cuesta más trabajo ver.”
+				p José Ortega y Gasset
+
+	.site__section
+		.figure
+			.figure__caption
+				h2 “Como es arriba es abajo”.
+				p El Kybalion
+			.figure__image.img(style="background-image:url('assets/img/bg21.jpg');")
+	#forma.site__section.article__content 
+		h1 Forma
+		dl
+			dt TODH se ve en:
+			dd la vida de una persona. Somos los cuatro elementos. Nuestra psique está compuesta por 12 arquetipos que son como los personajes de una película.
+			dd el sistema solar, en las estaciones del año.
+			dd la mitología. Todos los dioses antiguos (y los modernos) tienen su correlato arquetípico.
+			dd el lenguaje de la astrología humanista. Bebo mucho de esa fuente y veo cómo va evolucionando a partir de ahí.
+			dd el mundo del desarrollo y diseño web. Prototipado, componentización, lenguaje, el link, las redes sociales... 
+				small Sitio desarrollado rápidamente con el workflow: Prepross, Atom, Sass, Pug, Github Pages. 
+				small 100% reciclable. Uso tonos neutros.
+			dd el proceso creativo y artístico.
+			
+	.site__section
+		.figure
+			.figure__image.img(style="background-image:url('assets/img/bg10.jpg');")
+			.figure__caption
+				h2 “Eludir al otro es cada vez menos posible. Estamos obligados a vincularnos.”
+				p Alejandro Lodi
+
+	.site__section
+		.figure
+			.figure__caption
+				h2 "Inteligencia Vincular es dejarse transformar por el vínculo"
+				p Eugenio Carutti
+			.figure__image.img(style="background-image:url('assets/img/bg12.jpg');")
+
+	#info.site__section.article__content
+		h1 About
+		p.
+			Dada la naturaleza tanto teórico-filosófica como práctico-vivencial de TODH veo necesario que hable del proyecto en sí mismo.
+			Es como una muñeca rusa. Estoy hablando de algo con ese mismo algo como instrumento.
+		p.
+			Digamos que TODH es un enfoque no dualista donde paradógicamente me interesa que estén bien claras las dos polaridades que conforman esta visión.
+			Por eso la información que se presenta está estructurada básicamente en dos partes; una conceptual donde trato de plasmar un conocimiento sutil, intelectual, ideal y abstracto.
+			Y por otra parte la plasmación, una serie de ejemplos, casos de uso, lugares físicos donde TODH se manifiesta.
+			Lo primero que observamos cuando profundizamos en TODH es que no se puede adquirir como se adquiere un objeto, tampoco es algo en lo que creer. Es simplemente darse cuenta del mecanismo profundo que sigue toda creación.
+			TODH simplemente ocurre. Es un vínculo antes que un objeto, es una semilla antes que un árbol.
+			small.
+				TODH es observación activa, consciente.
+
+	.site__section.site__footer.article__content
+		.img.img--avatar.anim(style="background-image:url('assets/img/sergio.jpg');")
+		dl
+			dt Sergio Forés
+			dd.
+				Le gusta escaparse a la playa y encontrar tesoros ocultos.
+			dd.
+				Trabaja actualmente en Icarus, un equipo multidisciplinar que ayuda a empresas a desarrollar productos digitales desde una perspectiva holística. 
+				Ayuda sobretodo aportando su visión TODH aplicada a lo metodológico, diseñando en Sketch y prototipando en la parte de Front-end. 
+			br
+			dd
+				a(href='https://es.linkedin.com/in/sergiofores' target='_blank')
+					|   Linkedin 
+					i.td-icon.td-shape-arrow  
+				|  - Currículum y skillset
+			dd
+				a(href='https://twitter.com/t0tinspire' target='_blank')
+					|   Twitter 
+					i.td-icon.td-shape-arrow  
+				|  - Destellos e inspiraciones TODH
+			dd
+				a(href='https://medium.com/@todh' target='_blank')
+					|   Medium
+					i.td-icon.td-shape-arrow 
+				|  - Borradores de futuros artículos inconclusos 
+			dd
+				a(href='https://www.instagram.com/t.o.d.h' target='_blank')
+					|   Instagram
+					i.td-icon.td-shape-arrow  
+				|  - Postureo y obra artística
+			dd
+				a(href='https://github.com/t0t/t-o-d-h.com/tree/gh-pages' target='_blank')
+					|   Github
+					i.td-icon.td-shape-arrow  
+				|  - Código Front-end de algunos proyectos
+			dd
+				a(href='https://codepen.io/t0t/' target='_blank')
+					|   Codepen
+					i.td-icon.td-shape-arrow 
+				|  - Laboratorio de experimentación de UI
+
+	.figure__image.img.img--fixed-2.filter(style="background-image:url('assets/img/bg7.jpg');")
+		h2 Todo ya funciona. Todo ya importa.
+
+//- block scripts
+//- 	script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+//- 	//-script(src='./assets/js/core/popper.min.js' type='text/javascript')
+//- 	script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+//- 	script(src='./assets/js/plugins/jasny-bootstrap.min.js')
+//- 	script(src='./assets/js/now-ui-kit.js?v=1.2.0' type='text/javascript')

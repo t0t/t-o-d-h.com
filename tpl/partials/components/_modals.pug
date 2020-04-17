@@ -1,0 +1,83 @@
+section#myModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+	.modal-dialog
+		.modal-content
+			.modal-header.justify-content-center
+				button.close(type='button' data-dismiss='modal' aria-hidden='true')
+					i.now-ui-icons.ui-1_simple-remove
+				h4.title.title-up Modal title
+			.modal-body
+				p
+					| Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+			.modal-footer
+				button.btn.btn-default(type='button') Nice Button
+				button.btn.btn-danger(type='button' data-dismiss='modal') Close
+
+section#myModal1.modal.fade.modal-mini.modal-primary(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+	.modal-dialog
+		.modal-content
+			.modal-header.justify-content-center
+				.modal-profile
+					i.td-icon.td-avocado
+			.modal-body
+				p Always have an access to your profile
+			.modal-footer
+				button.btn.btn-link.btn-neutral(type='button') Back
+				button.btn.btn-link.btn-neutral(type='button' data-dismiss='modal') Close
+
+section#noticeModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+	.modal-dialog.modal-notice
+		.modal-content
+			.modal-header
+				button.close(type='button' data-dismiss='modal' aria-hidden='true')
+					i.now-ui-icons.ui-1_simple-remove
+				h5#myModalLabel.modal-title Un paradigma sistémico
+			.modal-body
+				.instruction
+					.row
+						.col-md-8
+							strong Los 12 arquetipos universales
+							p.description
+								| Soy, tengo, pienso, siento, quiero, analizo, equilibro, deseo, comprendo, utilizo, se, creo.
+						.col-md-4
+							.picture
+								img.rounded.img-raised(src='assets/img/bg15.jpg' alt='Thumbnail Image')
+				.instruction
+					.row
+						.col-md-8
+							strong Las 4 partes de la realidad
+							p.description
+								| Sentir, hacer, pensar, decir.
+						.col-md-4
+							.picture
+								img.rounded.img-raised(src='assets/img/bg17.jpg' alt='Thumbnail Image')
+				p
+					| Todo en la vida sigue el mismo proceso. Una persona, un equipo, un producto... todo es una conversación que puede fluir en coherencia con la vida.
+			.modal-footer.justify-content-center
+				button.btn.btn-info.btn-round(type='button' data-dismiss='modal') Sounds good!
+// end notice modal
+// Login Modal
+section#loginModal.modal.fade.modal-primary(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+	.modal-dialog.modal-login
+		.modal-content
+			.card.card-login.card-plain
+				.modal-header.justify-content-center
+					button.close(type='button' data-dismiss='modal' aria-hidden='true')
+						i.now-ui-icons.ui-1_simple-remove
+					.header.header-primary.text-center
+						.logo-container
+							img(src='assets/img/now-logo.png' alt='')
+				.modal-body
+					form.form(method='' action='')
+						.card-body
+							.input-group.form-group-no-border.input-lg
+								.input-group-prepend
+									span.input-group-text
+										i.now-ui-icons.users_circle-08
+								input.form-control(type='text' placeholder='First Name...')
+							.input-group.form-group-no-border.input-lg
+								.input-group-prepend
+									span.input-group-text
+										i.now-ui-icons.ui-1_lock-circle-open
+								input.form-control(type='text' placeholder='Password...')
+				.modal-footer.text-center
+					a.btn.btn-neutral.btn-round.btn-lg.btn-block(href='#pablo') Get Started

@@ -1,0 +1,24 @@
+mixin heading2(item)
+	h4=item
+
+mixin block-text(title)
+	.col-6
+		h2.title= title
+		block
+
+mixin list-ol(...users)
+	ol
+		each user in users
+			li= user
+
+mixin list-inline(...users)
+	ul.list-inline
+		each user in users
+			li.list-inline-item= user
+
+mixin blockquote(text,author)
+	p.blockquote.blockquote-info
+		= text
+		br
+		small.text-info
+			= author

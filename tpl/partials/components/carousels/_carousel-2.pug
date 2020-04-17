@@ -1,0 +1,42 @@
+//- Simple Basic Carousel
+.container-fluid
+	.row
+		#carouselExampleIndicators.carousel.slide(data-ride='carousel')
+			ol.carousel-indicators
+				li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+				li(data-target='#carouselExampleIndicators' data-slide-to='1')
+				li(data-target='#carouselExampleIndicators' data-slide-to='2')
+				li(data-target='#carouselExampleIndicators' data-slide-to='3')
+				li(data-target='#carouselExampleIndicators' data-slide-to='4')
+
+			.carousel-inner(role='listbox')
+				.carousel-item.active
+					img.d-block(src='assets/img/bg3.jpg' alt='First slide')
+					.carousel-caption.d-none.d-md-block
+						h1
+							| Descubre un modo de percepción de lo real
+				.carousel-item
+					img.d-block(src='assets/img/bg6.jpg' alt='First slide')
+					.carousel-caption.d-none.d-md-block
+						h1
+							| Transita un paradigma funcional sistémico
+				.carousel-item
+					img.d-block(src='assets/img/bg7.jpg' alt='Second slide')
+					.carousel-caption.d-none.d-md-block
+						h1
+							| Canaliza tu inspiración
+				.carousel-item
+					img.d-block(src='assets/img/bg8.jpg' alt='Second slide')
+					.carousel-caption.d-none.d-md-block
+						h1
+							| Amplía tu percepción creativa
+				.carousel-item
+					img.d-block(src='assets/img/bg9.jpg' alt='Third slide')
+					.carousel-caption.d-none.d-md-block
+						h1
+							| Actualiza tu potencial
+
+			a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
+				i.td-icon.x3.td-minimal-left
+			a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
+				i.td-icon.x3.td-minimal-right

@@ -1,0 +1,291 @@
+extends layouts/_default
+include mixins/carousel.pug
+include mixins/accordion.pug
+include mixins/header-half.pug
+include mixins/content.pug
+block title
+	title ¿Qué es TODH?
+append content
+
+	+header-half( 
+		"TODH",
+		"Transmite. Observa. Discierne. Haz.",
+		"gold"
+	)
+
+	section.section-va.container
+		.row
+			.col-10.mx-auto
+				//- +heading2( "Actualización contínua" )
+				//- p.
+				//- 	Son las cuatro dimensiones de la unidad.
+					
+				+heading2( "La percepción" )
+				p.
+					TODH amplía tu conciencia, que no es más que tu campo de visión, dejándote percibir el contexto en el que se da una conversación. 
+					Mientras tú y yo estamos hablando ocurren otras cosas que están más allá de lo que estamos diciendo. 
+					TODH abre la válvula para que fluyan los insights.
+					Pongamos que eres un escritor y estás escribiendo un drama o una comedia y, al mismo tiempo, escuchando la melodía que se se va desprendiendo al pulsar las teclas. 
+					Aparentemente no tiene nada que ver con la película pero es lo que la amalgama y le da el sentido. Para darle sentido a la película debes estar fuera de la pantalla, sentarte en una butaca y observar.
+				
+
+				//- +heading2( "La estructura analógica fractal" )
+				//- +blockquote( ' "De una manera u otra somos partes de una sola mente que todo lo abarca, un único gran hombre" ',
+				//- " Carl Gustav Jung" )
+				//- p.
+				//- 	La Creación es un sistema en el que todas sus partes se mueven describiendo un itinerario. El "viajero" va actualizando el propio potencial a cada paso que da. Así se produce el avance, el desarrollo, el crecimiento, la evolución.
+				p
+					| #todh es el viaje fascinante que parte de una metáfora y progresivamente se va tornando realidad. 
+					| Creo que llegaríamos a un cierto grado de consenso si nos pusiéramos a analizar profundamente las cualidades esenciales de las estaciones del año. Esas 4 cualidades esenciales que son análogas a los elementos, a los puntos cardinales o al decir, sentir, pensar y hacer.
+				
+				h6
+					| La estructura elemental
+
+				.row.pt-4
+					.col-md-12.mx-auto
+						.row
+							.col-md-6
+								h2.mb-2 Sentir
+								i.td-icon.td-shape-oval.text-info
+								p.
+									Es el impulso, la pulsión, el latido, la llamada a la aventura, la motivación, lo que nos hace vibrar. La entrada, la inspiración...
+									El sentir tiene que ver con los sentidos, con lo que llega del afuera. Pertenece al grupo emocional de agua. Es sutil, mutable.
+									Es la primavera.
+
+							.col-md-6
+								h2.mb-2 Hacer
+								i.td-icon.td-shape-rectangle.text-info
+								p.
+									Son los actos, los hechos, la manifestación concreta de algo.
+									Es el suceder tangible. Es el trabajo físico. Pertenece al subgrupo de tierra. 
+									Es pesado, contundente, sin lugar a dudas. Requiere mucha energía.
+									Es el verano.
+
+							.col-md-6
+								h2.mb-2 Pensar
+								i.td-icon.td-shape-triangle.text-info
+								p.
+									Como dice el Kybalión; el universo es mental. Es el fuego del pensamiento. 
+									Implica planificación y estrategia. 
+									Es veloz y se mueve en la multiplicidad de opciones.
+									Conlleva discernimiento, dirección, rumbo, orden. 
+									Son las estructuras psicológicas. La razón, la ideación.
+									Es el otoño. Las formas se deshacen.
+
+							.col-md-6
+								h2.mb-2 Decir
+								i.td-icon.td-shape-polygon.text-info
+								p.
+									Atañe al elemento del aire. Es comunicación, exteriorización, entrega. Compartir. Propagar.
+									Es la válvula que conecta la información interna con el mundo externo. 
+									Es la función sináptica. Es divergente, expansivo, liberador.
+	
+	section.section-va.container
+		//- .row
+		//- 	.col-12
+		//- 		iframe(src='https://www.youtube.com/embed/O9hMUtGsrRs?rel=0&amp;controls=0&amp;showinfo=0' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
+		.row
+			.col-md-8.ml-auto.mr-auto.text-center
+				h2.title.
+					Principio paradoxal
+				h4.lead.
+					Uno es libre cuanto más alineado está con la estructura de lo que es
+		.row
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-loop
+					h4.info-title Principio de Correspondencia
+					p
+						| Sentir el orden, cómo todo ya funciona en coherencia dentro de un universo sistémico y holístico.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-target
+					.description
+						h4.info-title Coherencia y transparencia
+						p
+							| Abordar la complejidad y la incertidumbre indagando en el potencial creativo humano.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.spin.td-circle
+					.description
+						h4.info-title Acción contínua incremental
+						p
+							| N-Hacer en cada momento como una semilla que germina y se desarrolla. Generar hechos concretos desde lo natural.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-avocado
+					.description
+						h4.info-title Consolidar lo que ya funciona bien
+						p
+							| No partimos de cero. No podemos obviar lo que ya funcionaba bien antes de llegar nosotros.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-board
+					.description
+						h4.info-title Simpler. Smarter. Faster.
+						p
+							| Lifelike es un prototipo real. Porque no hay mapa más preciso que la realidad.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-air
+					.description
+						h4.info-title Los vínculos antes que cualquier cosa
+						p
+							| Percibir vínculos antes que objetos. Nuestro escenario es mutable y nosotros también.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-water
+					.description
+						h4.info-title Captación líquida de requerimientos
+						p
+							| Tomarse el tiempo de observar lo que está ocurriendo. Escuchar todo lo que se te está diciendo.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-world
+					.description
+						h4.info-title Experimentacción progresiva
+						p
+							| Traer a tierra una pequeña semilla desde el minuto 0 buscando la completitud funcional.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-energy
+					.description
+						h4.info-title Una estructura elemental
+						p
+							| Agua. Tierra. Fuego. Aire.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-air
+					.description
+						h4.info-title Percibir tramas vinculares
+						p
+							| Percibir vínculos antes que objetos. Nuestro escenario es mutable y nosotros también.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-energy
+					.description
+						h4.info-title Todo es una conversación
+						p
+							| Percibir vínculos antes que objetos. Nuestro escenario es mutable y nosotros también.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-energy
+					.description
+						h4.info-title Reconociendo patrones universales
+						p
+							| Sentir el orden, cómo todo ya funciona en coherencia dentro de un universo sistémico y holístico.
+
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-air
+					.description
+						h4.info-title Coherencia y transparencia
+						p
+							| Abordar la complejidad y la incertidumbre indagando en el potencial creativo humano.
+
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-air
+					.description
+						h4.info-title Acción contínua incremental
+						p
+							| N-Hacer en cada momento como una semilla que germina y se desarrolla. Generar hechos concretos desde lo natural.
+			.col-md-6
+				.info.info-hover
+					.icon.icon-warm
+						i.td-icon.td-air
+					.description
+						h4.info-title Simpler. Smarter. Faster.
+						p
+							| Lifelike es un prototipo real. Porque no hay mapa más preciso que la realidad.
+
+	//- section.section-va.container
+	//- 	.row
+	//- 		.col-12.mx-auto
+				//- a.twitter-timeline(href='https://twitter.com/t0tinspire?ref_src=twsrc%5Etfw') Tweets by t0tinspire
+				//- script(async='', src='https://platform.twitter.com/widgets.js', charset='utf-8')
+
+
+				//- +heading2( "En resumen" )
+				//- p.
+				//- 	Existen ideas y patrones de conducta que son universales y están presentes en toda la humanidad, más allá del sexo, cultura, edad o religión, ya que pertenecen a la psique humana.
+				//- 	Conocerlas y experimentarlas es sin duda el mejor viaje posible.
+
+	//- 			.row
+	//- 				.col-md-12
+	//- 					+list-ol(
+	//- 					"Ser",
+	//- 					"Tener",
+	//- 					"Pensar",
+	//- 					"Sentir",
+	//- 					"Querer",
+	//- 					"Analizar",
+	//- 					"Equilibrar",
+	//- 					"Desear",
+	//- 					"Comprender",
+	//- 					"Utilizar",
+	//- 					"Saber",
+	//- 					"Creer"
+	//- 					)
+	//- 				.col-md-12
+	//- 					+list-inline(
+	//- 					"Impulso, emprender",
+	//- 					"Recursos, dinero, aporta algo?",
+	//- 					"brainstorming, contactos, red",
+	//- 					"gestión emocional, equipo,",
+	//- 					"marketing, target, como lo presento",
+	//- 					"currar, optimizar procesos",
+	//- 					"cooperación, asociaciones que fortalecen el proyecto",
+	//- 					"gestión de emociones relacionadas con un proyecto",
+	//- 					"abrir sucursales, abrir fronteras",
+	//- 					"resultado, empresa madura, visión estratégica",
+	//- 					"innovación, actualización contínua, avances, nuevos paradigmas",
+	//- 					"el proyecto de disuelve en lo colectivo, solidaridad..."
+	//- 					)
+	//- 
+	//- section.section-va.container
+	//- 	.row
+	//- 		+block-text('Hello world')
+	//- 			p This is my
+	//- 			p Amazing article
+	//- 
+	//- 		+block-text('Another article')
+	//- 			p I just used a mixin
+	//- 			p instead of retyping code
+	//- 
+	//- 		+blockquote(
+	//- 			" jgvj ygv yjgv jygv jvygv jyc jf cj",
+	//- 			"el autor"
+	//- 		)
+	//- 
+	//- section.section-va.container
+	//- 	.row
+	//- 		.col-md-8.ml-auto.mr-auto.text-center
+	//- 
+	//- 			+carousel( "ExampleIndicators", [{
+	//- 				image:"assets/img/bg4.jpg", 
+	//- 				h1:"Titulo del slide", 
+	//- 				p:"asD Fawfkewklfjvanwlkvj", 
+	//- 				button:{ caption:"xy", url:"#"}
+	//- 
+	//- 				},{
+	//- 
+	//- 				image:"assets/img/bg2.jpg", 
+	//- 				h1:"El slide 2", 
+	//- 				p:"ww", 
+	//- 				button:{ caption:"s", url:"#"}	 
+	//- 			}])

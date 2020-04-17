@@ -1,0 +1,10 @@
+mixin header-5(bg,title,subtitle)
+	section.page-header.header-filter
+		.page-header-image(style="background-image: url('assets/img/"+bg+"');")
+		.content-center
+			.container
+				.row
+					//- .col-12.ml-auto.mr-auto
+					//- 	h1.mb-2= title
+					.col-md-12.iframe-container
+						h4.lead.d-flex.justify-content-center.p-2.mx-auto= subtitle
